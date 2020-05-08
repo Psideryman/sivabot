@@ -12,7 +12,7 @@
 			registeredUsers = (data+'').split(' ');
 			});
 		var userPoints;
-		fs.readFile('MessageData.txt', function (err, data) {
+		fs.readFile('messageData.txt', function (err, data) {
 			if (err) {
 			 throw err;
 			}
