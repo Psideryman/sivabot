@@ -1,1 +1,1 @@
-Worker: bot.js
+web: npm install server && node bot.js
