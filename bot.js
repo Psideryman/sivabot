@@ -30,7 +30,7 @@ bot.on('message', function (user, userID, channelID, message, evt) {
 			case 'ping':
 				bot.sendMessage({
 					to: channelID,
-					message: 'The fuck you want <@'+userId+'>'
+					message: 'What do you want <@'+userId+'>'
 				});
 				break;
 			// Just add any case commands if you want to..
